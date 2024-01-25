@@ -2,6 +2,7 @@ body, p, ul, h1{
     margin: 0;
     padding: 0;
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 
 }
 .main {
@@ -9,21 +10,19 @@ body, p, ul, h1{
     flex-direction: column;
     margin: 0 auto;
     max-width: 900px;
-    border: 2px solid green;
 }
 
 .container-1{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 0 3rem;
-    border: 2px solid red;
+    padding: 1rem 3rem 0;
 }
 .container-1 .nav-bar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 .nav-bar .logo{
     font-size: 1.5rem;
@@ -42,40 +41,40 @@ body, p, ul, h1{
     display: flex;
     flex-direction: row;
     gap: 3rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
 
 }
 .section .content {
     max-width: 450px;
-    /* border: 2px solid rebeccapurple; */
 
 }
 .content h1{
     font-size: 2.5rem;
     font-weight: bolder;
     color: #F9FAF8;
-    line-height: 0.85em;
+    line-height: 0.95em;
     margin-bottom: 0.25em;
 }
 .content p {
     color: #F9FAF8;
     font-size: 1.125rem;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.35em;
 }
 .content button {
     font-size: 1.05rem;
-    padding: 0.25em 0.5em;
-    border-radius: 0.25em;
-    min-width: 29%;
+    padding: 0.25em 1.5em;
+    border: 1px solid #3882F6;
+    border-radius: 0.3em;
+    min-width: 30%;
     background-color: #3882F6;
     color: #F9FAF8;
 
 }
 .section .image {
     background-color: #aaa;
-    min-width: 40%;
-    max-height: 20%;
-    font-size: 1.25rem;
+    width: 70vw;
+    height: 5vh;
+    font-size: 1rem;
     padding: 3em;
     text-align: center;
 }
@@ -86,12 +85,14 @@ body, p, ul, h1{
     flex-direction: column;
     background-color: #F9FAF8;
     align-items: center;
+    padding-bottom: 4rem;
 
 }
 .container-2 p {
     font-size: 2.25rem;
     font-weight: bolder;
     color: #1F2937;
+    margin: 0.5em;
 }
 .container-2 .picture{
     display: flex;
@@ -114,4 +115,50 @@ body, p, ul, h1{
     width: 10vh;
     height: 10vh;
     text-align: center;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 4rem;
+    align-items: center;
+}
+.container-3 .quote{
+    text-align: center;
+    font-size: 1.75em;
+    font-style: italic;
+    color: #1F2937;
+}
+.container-3 .name{
+    text-align: right;
+    color:#1F2937;
+    font-size: 1.125rem;
+    margin: 0.75em;
+    font-style: italic;
+}
+
+.container-4 {
+    background-color: #F9FAF8;
+    padding: 4rem;
+}
+.container-4 .section{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+}
+.section .action{
+    color:#F9FAF8;
+
+}
+.action .bold{
+    font-weight: bold;
+}
+.container-4 .sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
 }
